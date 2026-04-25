@@ -3,9 +3,9 @@ package com.hackathon.dietapp.controller;
 import com.hackathon.dietapp.agent.DietitianAgent;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "*") 
 @RestController
 @RequestMapping("/api/workflow")
+@CrossOrigin(origins = "*") 
 public class WorkflowController {
 
     private final DietitianAgent dietitianAgent;

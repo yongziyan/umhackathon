@@ -34,7 +34,7 @@ class _ChatScreenState extends State<ChatScreen> {
   bool _isLoading = false;
 
   // Use 10.0.2.2 for Android Emulator, localhost for Windows/Web
-  final String apiUrl = "http://10.0.2.2:8080/api/workflow/chat?userId=user123";
+  final String apiUrl = "http://127.0.0.1:8082/api/workflow/chat?userId=user123";
 
   Future<void> _sendMessage() async {
     if (_controller.text.isEmpty) return;

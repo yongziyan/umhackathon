@@ -1,0 +1,14 @@
+name: whatToEat_app
+description: A new Flutter project for the UM Hackathon.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0  # <--- Here is your http package
+
+# ... rest of your file (dev_dependencies, flutter section, etc.)
